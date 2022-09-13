@@ -1,0 +1,22 @@
+Microsoft (R) Roslyn C# Compiler version 2.10.0.0
+Loading context from 'CSharpInteractive.rsp'.
+Type "#help" for more information.
+> strn
+(1,1): error CS0103: The name 'strn' does not exist in the current context
+> string vf = "5";
+> string df = "Hello";
+> df
+"Hello"
+> vf
+"5"
+> 5+5
+10
+> 5
+5
+> var secondString = "Hello Vishal";
+> var voidvalue
+.     ;
+(1,5): error CS0818: Implicitly-typed variables must be initialized
+> var voidName;
+(1,5): error CS0818: Implicitly-typed variables must be initialized
+> 
