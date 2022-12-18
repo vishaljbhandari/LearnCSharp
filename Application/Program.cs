@@ -29,6 +29,7 @@ namespace Application  // Global/outer most namespace, same as project name
         static void Main(string[] args) /* args is an array holding Command Line Arguments, its optional */
         {
             Console.WriteLine("Hello World!");
+            
         }
     }
 }

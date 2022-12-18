@@ -13,5 +13,9 @@ namespace Application.Basic
     class Comments
     {
         // int a; // commenting a code line
+        static void Example()
+        {
+
+        }
     }
 }
