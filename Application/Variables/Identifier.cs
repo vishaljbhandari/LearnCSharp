@@ -44,7 +44,8 @@ namespace Application.Variables
         {
 #pragma warning disable 219 // supressing warning CS0219, The variable xx is assigned but its value is never used
             int oneRoute = 5;
-            int @as = 5;
+            int @as = 5;        // keyword prefixed with @
+            int @lock = 10;     // keyword prefixed with @
             int minutes = 60;
             int math_marks = 45;
 #pragma warning restore 219 // restoring warning CS0219, The variable xx is assigned but its value is never used
@@ -59,6 +60,35 @@ namespace Application.Variables
              */
         }
 
+        void Keywords()
+        {
+            /*
+                Keywords are reserved words predefined to the C# compiler. 
+                These keywords cannot be used as identifiers. 
+                
+                If you want to use these keywords as identifiers, you may prefix the keyword with the @ character.
+            
+                Reserved Keywords
+                    abstract	as	base	bool	break	byte	case
+                    catch	char	checked	class	const	continue	decimal
+                    default	delegate	do	double	else	enum	event
+                    explicit	extern	false	finally	fixed	float	for
+                    foreach	goto	if	implicit	in	in (generic modifier)	int
+                    interface	internal	is	lock	long	namespace	new
+                    null	object	operator	out	out (generic modifier)	override	params
+                    private	protected	public	readonly	ref	return	sbyte
+                    sealed	short	sizeof	stackalloc	static	string	struct
+                    switch	this	throw	true	try	typeof	uint
+                    ulong	unchecked	unsafe	ushort	using	virtual	void
+                    volatile	while
+
+                Contextual Keywords
+                    add	alias	ascending	descending	dynamic	from	get
+                    global	group	into	join	let	orderby	partial (type)
+                    partial(method)	remove	select	set	
+            */
+        }
+
         static void Example()
         {
             Identifier identifier = new Identifier();
@@ -66,6 +96,7 @@ namespace Application.Variables
             identifier.ValidIdentifierRules();
             identifier.ValidIdentifiers();
             identifier.InValidIdentifiers();
+            identifier.Keywords();
         }
     }
 }

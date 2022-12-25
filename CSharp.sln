@@ -93,7 +93,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Old", "Old", "{436B8E52-EDB
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{1E860CFE-85FB-4BE7-9F05-D81E228005DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample", "Sample\Sample.csproj", "{9101DCAE-22AA-4B8A-A30F-2FEB433D1383}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample", "Sample\Sample.csproj", "{9101DCAE-22AA-4B8A-A30F-2FEB433D1383}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SharedCppDLL", "SharedCppDLL\SharedCppDLL.vcxproj", "{E9CEB898-A0E2-4C2B-A95F-6A19C5FCF60F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -609,6 +611,16 @@ Global
 		{9101DCAE-22AA-4B8A-A30F-2FEB433D1383}.Release|x64.Build.0 = Release|Any CPU
 		{9101DCAE-22AA-4B8A-A30F-2FEB433D1383}.Release|x86.ActiveCfg = Release|Any CPU
 		{9101DCAE-22AA-4B8A-A30F-2FEB433D1383}.Release|x86.Build.0 = Release|Any CPU
+		{E9CEB898-A0E2-4C2B-A95F-6A19C5FCF60F}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{E9CEB898-A0E2-4C2B-A95F-6A19C5FCF60F}.Debug|x64.ActiveCfg = Debug|x64
+		{E9CEB898-A0E2-4C2B-A95F-6A19C5FCF60F}.Debug|x64.Build.0 = Debug|x64
+		{E9CEB898-A0E2-4C2B-A95F-6A19C5FCF60F}.Debug|x86.ActiveCfg = Debug|Win32
+		{E9CEB898-A0E2-4C2B-A95F-6A19C5FCF60F}.Debug|x86.Build.0 = Debug|Win32
+		{E9CEB898-A0E2-4C2B-A95F-6A19C5FCF60F}.Release|Any CPU.ActiveCfg = Release|Win32
+		{E9CEB898-A0E2-4C2B-A95F-6A19C5FCF60F}.Release|x64.ActiveCfg = Release|x64
+		{E9CEB898-A0E2-4C2B-A95F-6A19C5FCF60F}.Release|x64.Build.0 = Release|x64
+		{E9CEB898-A0E2-4C2B-A95F-6A19C5FCF60F}.Release|x86.ActiveCfg = Release|Win32
+		{E9CEB898-A0E2-4C2B-A95F-6A19C5FCF60F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
