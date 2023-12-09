@@ -5,12 +5,30 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
   <ItemGroup>
-    <Folder Include="ControlBlock\Branching\" />
-    <Folder Include="ControlBlock\Looping\" />
+    <Content Include=".Net Framework\about.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Method\" />
     <Folder Include="Collections\" />
     <Folder Include="OOP\" />
+    <Folder Include="Types\Enum\" />
+    <Folder Include="Types\Classes\" />
+    <Folder Include="Types\Structure\" />
+    <Folder Include="Variables\IntegralType\" />
+    <Folder Include="Variables\FloatingPointType\" />
+    <Folder Include="Variables\BooleanType\" />
+    <Folder Include="Variables\DecimalType\" />
+    <Folder Include="Variables\NullableType\" />
   </ItemGroup>
 
 </Project>

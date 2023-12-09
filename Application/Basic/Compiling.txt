@@ -1,0 +1,24 @@
+﻿Compiling and Executing the Program
+
+
+Compile a C# program by using Visual Studio.Net −
+-------------------------------------------------
+Start Visual Studio.
+On the menu bar, choose File -> New -> Project.
+Choose Visual C# from templates, and then choose Windows.
+Choose Console Application.
+Specify a name for your project and click OK button.
+This creates a new project in Solution Explorer.
+Write code in the Code Editor.
+Click the Run button or press F5 key to execute the project. A Command Prompt window appears that contains the line Hello World.
+
+
+Compile a C# program by using the command-line −
+------------------------------------------------
+Open a text editor and add the above-mentioned code.
+Save the file as helloworld.cs
+Open the command prompt tool and go to the directory where you saved the file.
+Type csc helloworld.cs and press enter to compile your code.
+If there are no errors in your code, the command prompt takes you to the next line and generates helloworld.exe executable file.
+Type helloworld to execute your program.
+You can see the output Hello World printed on the screen.

@@ -1,0 +1,28 @@
+﻿C# Language
+	simple
+	modern
+	general-purpose
+	component oriented
+	easy to learn
+	a structured language
+	It produces efficient programs
+	can be compiled on a variety of computer platforms
+	a part of .Net Framework
+	object-oriented programming language 
+	developed by Microsoft within its .NET initiative led by Anders Hejlsberg
+	approved by European Computer Manufacturers Association (ECMA) & International Standards Organization (ISO)
+	designed for Common Language Infrastructure (CLI)
+
+Important features of C# −
+	Boolean Conditions
+	Automatic Garbage Collection
+	Standard Library
+	Assembly Versioning
+	Properties and Events
+	Delegates and Events Management
+	Easy-to-use Generics
+	Indexers
+	Conditional Compilation
+	Simple Multithreading
+	LINQ and Lambda Expressions
+	Integration with Windows

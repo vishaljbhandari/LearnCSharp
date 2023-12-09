@@ -5,8 +5,14 @@
 /*
  * 
  * Multiline Comment
+ * start with /* 
+ * terminates with the characters */
+
+/*
+ * Comments are used for explaining code
+ * Compilers ignore the comment entries
  * 
- */
+ * */
 
 namespace Application.Basic
 {
