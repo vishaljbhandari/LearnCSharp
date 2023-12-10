@@ -34,7 +34,6 @@
     <Folder Include="ExceptionHandling\" />
     <Folder Include="Interfaces\" />
     <Folder Include="RegularExpressions\" />
-    <Folder Include="UnsafeCodes\" />
     <Folder Include="Properties\" />
     <Folder Include="Reflection\" />
     <Folder Include="Types\Classes\MemberFunctions\" />
