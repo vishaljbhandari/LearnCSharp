@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -18,11 +18,30 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Collections\" />
-    <Folder Include="OOP\" />
-    <Folder Include="Types\Enum\" />
-    <Folder Include="Types\Classes\" />
-    <Folder Include="Types\Structure\" />
+    <Folder Include="Collections\CArrayList\" />
+    <Folder Include="Collections\CHashTable\" />
+    <Folder Include="Collections\CSortedList\" />
+    <Folder Include="Collections\CStack\" />
+    <Folder Include="Collections\CQueue\" />
+    <Folder Include="Collections\CBitArray\" />
+    <Folder Include="Events\" />
+    <Folder Include="Attributes\" />
+    <Folder Include="Indexers\" />
+    <Folder Include="Delegates\" />
+    <Folder Include="Generics\" />
+    <Folder Include="Multithreading\" />
+    <Folder Include="FileIO\" />
+    <Folder Include="ExceptionHandling\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="RegularExpressions\" />
+    <Folder Include="UnsafeCodes\" />
+    <Folder Include="Properties\" />
+    <Folder Include="Reflection\" />
+    <Folder Include="Types\Classes\MemberFunctions\" />
+    <Folder Include="Types\Classes\ClassObjects\" />
+    <Folder Include="Types\Classes\OperatorOverloading\AssignmentOperatorOverloading\" />
+    <Folder Include="Types\Classes\OperatorOverloading\TypeConversions\" />
+    <Folder Include="Types\Structures\" />
     <Folder Include="Variables\IntegralType\" />
     <Folder Include="Variables\FloatingPointType\" />
     <Folder Include="Variables\BooleanType\" />
