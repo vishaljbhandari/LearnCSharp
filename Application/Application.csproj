@@ -18,7 +18,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Method\" />
     <Folder Include="Collections\" />
     <Folder Include="OOP\" />
     <Folder Include="Types\Enum\" />

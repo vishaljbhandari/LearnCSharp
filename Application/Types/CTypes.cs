@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using Application.Types.ValueTypes;
 using Application.Types.ReferenceType;
 using Application.Types.PointerType;
+using Application.Types.Array;
 
 namespace Application.Types
 {
@@ -19,11 +20,12 @@ namespace Application.Types
          * 3) Pointer types -> Pointer type variables store the memory address of another type.
          */
 
-        static void Example()
+        public static void Example()
         {
             CValueType.Example();
             CReferenceType.Example();
             CPointerType.Example();
+            ArrayType.Example();
         }
     }
 }

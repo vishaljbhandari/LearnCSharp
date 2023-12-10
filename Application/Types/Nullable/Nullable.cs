@@ -4,13 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Application.DataTypes
+namespace Application.Types.Nullable
 {
-    class DataType
+    class Nullable
     {
         public static void Example()
         {
-
+            NullableType.Example();
+            NullCoalescingOperator.Example();
         }
     }
 }
