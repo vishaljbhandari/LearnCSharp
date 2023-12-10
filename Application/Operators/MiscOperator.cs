@@ -13,8 +13,6 @@ namespace Application.Operators
         {
             int a = 16;
             int b = 60;
-            int c;
-
 
             // sizeof()	Returns the size of a data type
             a = sizeof(int);
@@ -43,7 +41,9 @@ namespace Application.Operators
             Console.WriteLine("myvalue = a == b ? 0 : 1 = {0}", myvalue);
 
             // is	Determines whether an object is of a certain type.
-            if(a is int)
+#pragma warning disable CS0183 // 'is' expression's given expression is always of the provided type
+            if (a is int)
+#pragma warning restore CS0183 // 'is' expression's given expression is always of the provided type
             {
                 Console.WriteLine("a is int");
             }
@@ -51,7 +51,6 @@ namespace Application.Operators
             // as	Cast without raising an exception if the cast fails.
             Object obj = new StringReader("Hello");
             StringReader r = obj as StringReader;
-            Console.WriteLine("a = {0}, b = {1}, c %= a = {2}", a, b, c);
         }
     }
 }

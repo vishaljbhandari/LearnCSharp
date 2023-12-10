@@ -15,6 +15,9 @@ namespace Application.Types.CString
             string stringName = "Rowan";
             char[] charArray = { 'H', 'e', 'l', 'l', 'o' };
             string[] stringArray = { "Hello", "From", "Tutorials", "Point" };
+            Console.WriteLine("stringName: {0}", stringName);
+            Console.WriteLine("charArray: {0}", charArray);
+            Console.WriteLine("stringArray: {0}", stringArray);
         }
 
         void usingStringClassConstructor()

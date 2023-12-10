@@ -37,7 +37,9 @@ namespace Application.Types.CArray
              * Without initialization we can not assign values to array
              */
 
+#pragma warning disable CS0168 // Variable is declared but never used
             double[] balance;   // array of double type;
+#pragma warning restore CS0168 // Variable is declared but never used
         }
 
         void initializingArray()

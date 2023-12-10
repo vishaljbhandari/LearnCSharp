@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Application.Types.Classes
 {
     class ClassTypes
@@ -11,7 +12,10 @@ namespace Application.Types.Classes
         public static void Example()
         {
             DefiningClass.Example();
-            MemberFunction.Example();
+            {
+                Application.Types.Classes.ClassMembers.ClassMemberFunctions.Example();
+            }
+            
         }
     }
 }

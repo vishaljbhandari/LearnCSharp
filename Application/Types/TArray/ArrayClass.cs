@@ -171,7 +171,7 @@ namespace Application.Types.CArray
                 // Creates and initializes a new Array and a new custom comparer.
                 String[] myKeys = { "red", "GREEN", "YELLOW", "BLUE", "purple", "black", "orange" };
                 String[] myValues = { "strawberries", "PEARS", "LIMES", "BERRIES", "grapes", "olives", "cantaloupe" };
-                IComparer myComparer = new myReverserClass();
+                System.Collections.IComparer myComparer = new myReverserClass();
 
                 // Displays the values of the Array.
                 Console.WriteLine("The Array initially contains the following values:");

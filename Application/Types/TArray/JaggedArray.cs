@@ -13,7 +13,9 @@ namespace Application.Types.CArray
          */
         void declaringJaggedArray()
         {
+#pragma warning disable CS0168 // Variable is declared but never used
             int[][] scores;     // only declaring
+#pragma warning restore CS0168 // Variable is declared but never used
         }
         void initializingJaggedArray()
         {
