@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 using Application.Types.ValueTypes;
 using Application.Types.ReferenceType;
 using Application.Types.PointerType;
-using Application.Types.Array;
+using Application.Types.CArray;
+using Application.Types.CString;
 
 namespace Application.Types
 {
