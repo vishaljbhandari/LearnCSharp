@@ -4,13 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Application.Preprocessor
+namespace Application.OperatorOverloading.BinaryOperatorOverloading
 {
-    class Directive
+    class OperatorAddition
     {
-        public static void Example()
-        {
-
-        }
     }
 }

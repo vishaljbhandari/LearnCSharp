@@ -30,15 +30,10 @@
     <Folder Include="Delegates\" />
     <Folder Include="Generics\" />
     <Folder Include="Multithreading\" />
-    <Folder Include="FileIO\" />
-    <Folder Include="ExceptionHandling\" />
-    <Folder Include="Interfaces\" />
-    <Folder Include="RegularExpressions\" />
+    <Folder Include="OperatorOverloading\TypeConversions\" />
     <Folder Include="Properties\" />
     <Folder Include="Reflection\" />
     <Folder Include="Types\Classes\MemberFunctions\" />
-    <Folder Include="Types\Classes\OperatorOverloading\AssignmentOperatorOverloading\" />
-    <Folder Include="Types\Classes\OperatorOverloading\TypeConversions\" />
     <Folder Include="Variables\IntegralType\" />
     <Folder Include="Variables\FloatingPointType\" />
     <Folder Include="Variables\BooleanType\" />

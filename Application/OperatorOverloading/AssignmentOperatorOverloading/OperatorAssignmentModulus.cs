@@ -4,13 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Application.Preprocessor
+namespace Application.OperatorOverloading.AssignmentOperatorOverloading
 {
-    class Directive
+    class OperatorAssignmentModulus
     {
-        public static void Example()
-        {
-
-        }
     }
 }

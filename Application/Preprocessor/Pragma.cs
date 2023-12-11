@@ -32,5 +32,9 @@ namespace Application.Preprocessor
             int y = 5;
 #pragma warning restore 219, 168 // restoring warning CS0219, CS0168
         }
+        public static void Example()
+        {
+
+        }
     }
 }

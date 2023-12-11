@@ -4,13 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Application.Preprocessor
+namespace Application.OperatorOverloading.UnaryOperatorOverloading
 {
-    class Directive
+    class OperatorIncrement
     {
-        public static void Example()
-        {
-
-        }
     }
 }

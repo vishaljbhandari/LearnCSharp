@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Application.Preprocessor
+namespace Application.LibraryClasses
 {
-    class Directive
+    class LibraryRunner
     {
         public static void Example()
         {
