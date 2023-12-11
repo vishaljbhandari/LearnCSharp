@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Application.Types.CArray
 {
-    class JaggedArray
+    class ArrayJagged
     {
         /*
          * A Jagged array is an array of arrays
@@ -53,7 +53,7 @@ namespace Application.Types.CArray
         }
         public static void Example()
         {
-            JaggedArray obj = new JaggedArray();
+            ArrayJagged obj = new ArrayJagged();
             obj.declaringJaggedArray();
             obj.initializingJaggedArray();
             obj.accessingJaggedArray();

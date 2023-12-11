@@ -4,13 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Application.Types.Classes.ClassMembers
+namespace Application.Types.Structures
 {
-    class ClassMemberAccessSpecifier
+    class StructureType
     {
         public static void Example()
         {
-
+            StructureBasic.Example();
+            StructureWithFunction.Example();
+            StructureArray.Example();
         }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Application.Types.CArray
 {
-    class MultiDimensionalArrays
+    class ArrayMultiDimensional
     {
         /*
          * C# supports multidimensional arrays. 
@@ -77,7 +77,7 @@ namespace Application.Types.CArray
         }
         public static void Example()
         {
-            MultiDimensionalArrays obj = new MultiDimensionalArrays();
+            ArrayMultiDimensional obj = new ArrayMultiDimensional();
             obj.twoDimensionArray();
             obj.threeDimensionArray();
 

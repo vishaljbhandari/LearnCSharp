@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Application.Types.Classes.StaticMembers
 {
-    class StaticFunctionExample
+    class StaticDataExample
     {
         public static int num;
 
@@ -19,7 +19,7 @@ namespace Application.Types.Classes.StaticMembers
             return num;
         }
     }
-    class StaticFunctions
+    class StaticDataMember
     {
         /*  You can also declare a member function as static.
          *  Such functions can access only static variables
@@ -27,13 +27,13 @@ namespace Application.Types.Classes.StaticMembers
         */
         public static void Example()
         {
-            StaticFunctionExample obj = new StaticFunctionExample();
+            StaticDataExample obj = new StaticDataExample();
 
             obj.count();
             obj.count();
             obj.count();
 
-            Console.WriteLine("Variable num: {0}", StaticFunctionExample.getNum());
+            Console.WriteLine("Variable num: {0}", StaticDataExample.getNum());
         }
     }
 }

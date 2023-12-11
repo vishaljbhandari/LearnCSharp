@@ -9,6 +9,7 @@ using Application.Types.ReferenceType;
 using Application.Types.PointerType;
 using Application.Types.CArray;
 using Application.Types.CString;
+using Application.Types.Classes.AccessSpecifiers;
 
 namespace Application.Types
 {

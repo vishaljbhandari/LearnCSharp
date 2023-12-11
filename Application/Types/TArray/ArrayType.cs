@@ -12,11 +12,11 @@ namespace Application.Types.CArray
         {
             ArrayBasic.Example();
             ArrayIteration.Example();
-            MultiDimensionalArrays.Example();
-            JaggedArray.Example();
+            ArrayMultiDimensional.Example();
+            ArrayJagged.Example();
             ArrayClass.Example();
-            ParamArray.Example();
-            PassingArrayToFunction.Example();
+            ArrayParams.Example();
+            ArrayWithFunction.Example();
         }
     }
 }

@@ -20,7 +20,7 @@ namespace Application.Methods
          */
         public static void Example()
         {
-            Recursion.Example();
+            MethodRecursion.Example();
             MethodElements.Example();
             PassingParameter.Example();
         }

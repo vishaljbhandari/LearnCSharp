@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Application.Types.CArray
 {
-    class PassingArrayToFunction
+    class ArrayWithFunction
     {
         /* You can pass an array as a function argument in C# */
         double getAverage(int[] arr, int size)
@@ -36,7 +36,7 @@ namespace Application.Types.CArray
 
         public static void Example()
         {
-            PassingArrayToFunction obj = new PassingArrayToFunction();
+            ArrayWithFunction obj = new ArrayWithFunction();
             obj.passingToFunction();
         }
     }

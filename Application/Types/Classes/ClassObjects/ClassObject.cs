@@ -4,10 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Application.Types.Classes.ClassMembers
+namespace Application.Types.Classes.ClassObjects
 {
-    class ClassMemberFunctions
+    class ClassObject
     {
+        /*
+         * An object is a runtime "instance" of a class
+         */
+
         public static void Example()
         {
 

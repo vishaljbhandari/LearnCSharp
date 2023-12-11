@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Application.Methods
 {
-    class Recursion
+    class MethodRecursion
     {
         /*
          * A method can call itself. This is known as recursion
@@ -27,7 +27,7 @@ namespace Application.Methods
         }
         public static void Example()
         {
-            Recursion recursion = new Recursion();
+            MethodRecursion recursion = new MethodRecursion();
             //calling the factorial method {0}", n.factorial(6));
             Console.WriteLine("Factorial of 7 is : {0}", recursion.factorial(7));
             Console.WriteLine("Factorial of 8 is : {0}", recursion.factorial(8));

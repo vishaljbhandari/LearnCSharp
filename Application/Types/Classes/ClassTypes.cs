@@ -13,7 +13,7 @@ namespace Application.Types.Classes
         {
             DefiningClass.Example();
             {
-                Application.Types.Classes.ClassMembers.ClassMemberFunctions.Example();
+                Application.Types.Classes.ClassMembers.MemberFunctions.Example();
             }
             
         }

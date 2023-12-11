@@ -4,9 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Application.Types.Classes.StaticMembers
+namespace Application.Types.Structures
 {
-    class StaticMember
+    class StructureWithFunction
     {
+        public static void Example()
+        {
+
+        }
     }
 }

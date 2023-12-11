@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Application.Types.CArray
 {
-    class ParamArray
+    class ArrayParams
     {
         /*
          * Param Array
@@ -26,7 +26,7 @@ namespace Application.Types.CArray
 
         public static void Example()
         {
-            ParamArray obj = new ParamArray();
+            ArrayParams obj = new ArrayParams();
             int sum1 = obj.AddElements(512, 720, 250, 567, 889);
             Console.WriteLine("The sum1 is: {0}", sum1);
             int sum2 = obj.AddElements(512, 720, 250, 567, 889);

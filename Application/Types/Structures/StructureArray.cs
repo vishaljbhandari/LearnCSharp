@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Application.Types.Classes.ClassMembers
+namespace Application.Types.Structures
 {
-    class ClassMemberVariables
+    class StructureArray
     {
         public static void Example()
         {
