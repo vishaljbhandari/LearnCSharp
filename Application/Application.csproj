@@ -33,7 +33,6 @@
     <Folder Include="OperatorOverloading\TypeConversions\" />
     <Folder Include="Properties\" />
     <Folder Include="Reflection\" />
-    <Folder Include="Types\Classes\MemberFunctions\" />
     <Folder Include="Variables\IntegralType\" />
     <Folder Include="Variables\FloatingPointType\" />
     <Folder Include="Variables\BooleanType\" />
