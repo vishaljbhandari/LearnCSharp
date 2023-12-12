@@ -24,5 +24,29 @@ namespace Application.Collections
             }
             Console.Write("\n");
         }
+        public static void PrintStack(System.Collections.Stack stack)
+        {
+            foreach (int item in stack)
+            {
+                Console.Write(item + " ");
+            }
+            Console.Write("\n");
+        }
+        public static void PrintQueue(System.Collections.Queue queue)
+        {
+            foreach (int item in queue)
+            {
+                Console.Write(item + " ");
+            }
+            Console.Write("\n");
+        }
+        public static void PrintBitArray(System.Collections.BitArray bitArray)
+        {
+            foreach (int item in bitArray)
+            {
+                Console.Write("{0, -6} ", item);
+            }
+            Console.Write("\n");
+        }
     }
 }

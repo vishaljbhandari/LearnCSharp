@@ -14,7 +14,7 @@ namespace Application.Collections.CArrayList
 
             System.Collections.ArrayList al = new System.Collections.ArrayList();
 
-            Console.WriteLine("Capacity: {0} beforing adding", al.Capacity);
+            Console.WriteLine("Capacity: {0} before adding", al.Capacity);
             al.Add(45);
             al.Add(78);
             Console.WriteLine("Capacity: {0} after adding", al.Capacity);
@@ -28,7 +28,7 @@ namespace Application.Collections.CArrayList
 
             System.Collections.ArrayList al = new System.Collections.ArrayList();
 
-            Console.WriteLine("Count: {0} beforing adding", al.Count);
+            Console.WriteLine("Count: {0} before adding", al.Count);
             al.Add(45);
             al.Add(78);
             Console.WriteLine("Count: {0} after adding", al.Count);

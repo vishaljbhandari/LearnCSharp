@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Application.Collections.CSortedList
 {
-    class SortedListMethods
+    class StackMethods
     {
         void methodAdding()
         {
@@ -169,7 +169,7 @@ namespace Application.Collections.CSortedList
 
         public static void Example()
         {
-            SortedListMethods obj = new SortedListMethods();
+            StackMethods obj = new StackMethods();
             {
                 obj.methodAdding();
                 obj.methodSorting();

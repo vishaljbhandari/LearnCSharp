@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Application.Collections.CArrayList
 {
-    class SortedListProperties
+    class StackProperties
     {
         void propertyCapacity()
         {
@@ -15,7 +15,7 @@ namespace Application.Collections.CArrayList
 
             SortedList sl = new SortedList();
 
-            Console.WriteLine("Capacity: {0} beforing adding", sl.Capacity);
+            Console.WriteLine("Capacity: {0} before adding", sl.Capacity);
             sl.Add(1, 45);
             sl.Add(2, 78);
             Console.WriteLine("Capacity: {0} after adding", sl.Capacity);
@@ -29,7 +29,7 @@ namespace Application.Collections.CArrayList
 
             SortedList sl = new SortedList();
 
-            Console.WriteLine("Count: {0} beforing adding", sl.Count);
+            Console.WriteLine("Count: {0} before adding", sl.Count);
             sl.Add(1, 45);
             sl.Add(2, 78);
             Console.WriteLine("Count: {0} after adding", sl.Count);
@@ -112,7 +112,7 @@ namespace Application.Collections.CArrayList
         }
         public static void Example()
         {
-            SortedListProperties obj = new SortedListProperties();
+            StackProperties obj = new StackProperties();
             {
                 obj.propertyCapacity();
                 obj.propertyCount();

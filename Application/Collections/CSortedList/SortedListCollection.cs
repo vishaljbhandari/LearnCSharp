@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Application.Collections.CArrayList
 {
-    class SortedListCollection
+    class StackCollection
     {
         /*
          * The SortedList class 
@@ -21,7 +21,7 @@ namespace Application.Collections.CArrayList
 
         public static void Example()
         {
-            SortedListProperties.Example();
+            StackProperties.Example();
             SortedListMethods.Example();
         }
     }
