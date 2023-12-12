@@ -4,17 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Application.UnsafeCodes
+namespace Application.Multithreading
 {
-    class UnsafeCode
+    class Threading
     {
-        /*
-         * C# allows using pointer variables in a function of code block when it is marked by the unsafe modifier.
-         */
+        /* A thread is defined as the execution path of a program. 
+         * Each thread defines a unique flow of control.  */
 
         public static void Example()
         {
-
         }
     }
 }

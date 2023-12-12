@@ -13,11 +13,7 @@ namespace Application.Types.PointerType
          * Pointers in C# have the same capabilities as the pointers in C or C++
          */
 
-        /*
-         * Syntax for declaring a pointer type is
-         
-           type* identifier;
-        */
+
         public static void Example()
         {
             unsafe
