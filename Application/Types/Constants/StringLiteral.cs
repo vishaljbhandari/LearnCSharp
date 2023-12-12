@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Application.DataTypes
+namespace Application.Types.Constants
 {
-    class DataType
+    class StringLiteral
     {
         public static void Example()
         {

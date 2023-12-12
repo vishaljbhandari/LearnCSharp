@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Application.Constants
+namespace Application.Declaratives.Attributes.PredefinedAttributes
 {
-    class CharacterLiteral
+    class CConditional
     {
         public static void Example()
         {
+            CConditional obj = new CConditional();
 
         }
     }

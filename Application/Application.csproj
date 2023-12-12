@@ -18,14 +18,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Collections\CArrayList\" />
     <Folder Include="Collections\CHashTable\" />
-    <Folder Include="Collections\CSortedList\" />
     <Folder Include="Collections\CStack\" />
     <Folder Include="Collections\CQueue\" />
     <Folder Include="Collections\CBitArray\" />
     <Folder Include="Events\" />
-    <Folder Include="Attributes\" />
     <Folder Include="Indexers\" />
     <Folder Include="Delegates\" />
     <Folder Include="Generics\" />
@@ -33,11 +30,6 @@
     <Folder Include="OperatorOverloading\TypeConversions\" />
     <Folder Include="Properties\" />
     <Folder Include="Reflection\" />
-    <Folder Include="Variables\IntegralType\" />
-    <Folder Include="Variables\FloatingPointType\" />
-    <Folder Include="Variables\BooleanType\" />
-    <Folder Include="Variables\DecimalType\" />
-    <Folder Include="Variables\NullableType\" />
   </ItemGroup>
 
 </Project>

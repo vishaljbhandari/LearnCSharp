@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Application.Constants
+namespace Application.Types.Constants
 {
-    class Literals
+    class FloatingPointLiteral
     {
         public static void Example()
         {

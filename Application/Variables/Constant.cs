@@ -12,8 +12,6 @@ namespace Application.Variables
         /*
         * Constant is an immutable value.
         * 
-        * 
-        * 
         */
 
         void Declaration()

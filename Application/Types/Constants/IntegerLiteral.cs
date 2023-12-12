@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Application.Constants
+namespace Application.Types.Constants
 {
     class IntegerLiteral
     {

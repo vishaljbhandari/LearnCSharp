@@ -13,6 +13,10 @@ using Application.Types.Classes.AccessSpecifiers;
 
 namespace Application.Types
 {
+    class DataTypes
+    {
+        /* A data type is an attribute associated with a piece of data that tells a computer system how to interpret its value */
+    }
     class CTypes
     {
         /*

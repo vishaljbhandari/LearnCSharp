@@ -16,6 +16,8 @@ namespace Application.Variables
          */
         void Declaration()
         {
+            /* <data_type> <variable_list>; without initialization */
+
 #pragma warning disable 219, 168
             int UnInitializedNumber;
             int InitializedNumber = 5;
@@ -27,13 +29,33 @@ namespace Application.Variables
 
         void Initialization()
         {
+            /* <data_type> <variable_list> = value; declaration with initialization */
+            int d = 3, f = 5;    /* initializing d and f. */
+            byte z = 22;         /* initializes z. */
+            double pi = 3.14159; /* declares an approximation of pi. */
+            char x = 'x';        /* the variable x has the value 'x'. */
 
+            /* Variables are initialized (assigned a value) with an equal sign followed by a constant expression */
+            /* variable_name = value; */
+            char j;
+            j = 'x';
+
+            /* values can be initialized using user input as well */
+            /* The Console class in the System namespace provides a function ReadLine() for accepting input from the user and store it into a variable s*/
+            int num;
+            num = Convert.ToInt32(Console.ReadLine());
+        }
+        void lvalues()
+        {
+            /* Variables are lvalues and hence they may appear on the left-hand side of an assignment */
+            int g = 20;
         }
         static void Example()
         {
-            Variable variable = new Variable();
-            variable.Declaration();
-            variable.Initialization();
+            Variable obj = new Variable();
+            obj.Declaration();
+            obj.Initialization();
+            obj.lvalues();
         }
     }
 }

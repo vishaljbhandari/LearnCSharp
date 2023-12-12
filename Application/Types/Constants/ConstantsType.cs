@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Application.Constants
+namespace Application.Types.Constants
 {
-    class CConstants
+    class ConstantsType
     {
         /* The constants refer to fixed values that the program may not alter during its execution */
         /* These fixed values are also called literals */
@@ -18,7 +18,7 @@ namespace Application.Constants
     }
     public static void Example()
         {
-            CConstants obj = new CConstants();
+            ConstantsType obj = new ConstantsType();
             obj.DefiningConstants();
         }
     }
