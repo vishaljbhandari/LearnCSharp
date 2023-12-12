@@ -12,7 +12,12 @@ namespace Application.Types.Classes.Destructors
 
         public Square()
         {   /* constructor */
-            Console.WriteLine("Object is being created");
+            Console.WriteLine("Object is being created, Length: {0}", length);
+        }
+        public Square(double len)
+        {   /* constructor */
+            length = len;
+            Console.WriteLine("Object is being created, Length: {0}", length);
         }
         ~Square()
         {   /* destructor */

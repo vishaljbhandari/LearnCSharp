@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Application.Collections.CQueue
 {
-    class BitArrayProperties
+    class QueueProperties
     {
         void propertyCount()
         {
@@ -27,7 +27,7 @@ namespace Application.Collections.CQueue
         }
         public static void Example()
         {
-            BitArrayProperties obj = new BitArrayProperties();
+            QueueProperties obj = new QueueProperties();
             {
                 obj.propertyCount();
             }

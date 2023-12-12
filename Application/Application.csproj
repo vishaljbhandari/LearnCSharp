@@ -18,7 +18,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Collections\CHashTable\" />
     <Folder Include="Events\" />
     <Folder Include="Indexers\" />
     <Folder Include="Delegates\" />

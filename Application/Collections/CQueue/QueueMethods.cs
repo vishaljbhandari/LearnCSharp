@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Application.Collections.CQueue
 {
-    class BitArrayMethods
+    class QueueMethods
     {
         void methodAdding()
         {
@@ -123,7 +123,7 @@ namespace Application.Collections.CQueue
 
         public static void Example()
         {
-            BitArrayMethods obj = new BitArrayMethods();
+            QueueMethods obj = new QueueMethods();
             {
                 obj.methodAdding();
                 obj.methodSorting();

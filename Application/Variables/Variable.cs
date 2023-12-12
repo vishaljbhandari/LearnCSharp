@@ -39,7 +39,10 @@ namespace Application.Variables
             /* variable_name = value; */
             char j;
             j = 'x';
-
+            d = f;
+            j = x;
+            Console.WriteLine("Pi {0}", pi);
+            Console.WriteLine("z {0}", z);
             /* values can be initialized using user input as well */
             /* The Console class in the System namespace provides a function ReadLine() for accepting input from the user and store it into a variable s*/
             int num;
@@ -49,6 +52,7 @@ namespace Application.Variables
         {
             /* Variables are lvalues and hence they may appear on the left-hand side of an assignment */
             int g = 20;
+            Console.WriteLine("g {0}", g);
         }
         static void Example()
         {

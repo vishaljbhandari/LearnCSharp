@@ -19,8 +19,8 @@ namespace Application.Collections.CArrayList
        
         public static void Example()
         {
-            ArrayListCollection.Example();
-            ArrayListCollection.Example();
+            ArrayListMethods.Example();
+            ArrayListProperties.Example();
         }
     }
 }

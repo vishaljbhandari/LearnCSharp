@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Application.Collections.CStack
 {
-    class QueueMethods
+    class StackMethods
     {
         void methodAdding()
         {
@@ -119,7 +119,7 @@ namespace Application.Collections.CStack
 
         public static void Example()
         {
-            QueueMethods obj = new QueueMethods();
+            StackMethods obj = new StackMethods();
             {
                 obj.methodAdding();
                 obj.methodSorting();

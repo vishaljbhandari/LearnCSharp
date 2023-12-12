@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Application.Collections.CStack
 {
-    class QueueCollection
+    class StackCollection
     {
         /*
          * The Stack class 
@@ -18,8 +18,8 @@ namespace Application.Collections.CStack
 
         public static void Example()
         {
-            QueueProperties.Example();
-            QueueMethods.Example();
+            StackProperties.Example();
+            StackMethods.Example();
         }
     }
 }

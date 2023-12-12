@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Application.Collections.CArrayList
+namespace Application.Collections.CSortedList
 {
     class StackCollection
     {
@@ -21,7 +21,7 @@ namespace Application.Collections.CArrayList
 
         public static void Example()
         {
-            StackProperties.Example();
+            SortedListProperties.Example();
             SortedListMethods.Example();
         }
     }

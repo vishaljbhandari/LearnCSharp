@@ -38,6 +38,11 @@ namespace Application.Types.Classes.ClassMembers
          * Usually member variables are kept private to implement encapsulation and can only be accessed using the public member functions.
          */
         int value;
+        public MemberVariables()
+        {
+            value = 0;
+            Console.WriteLine("Value: {0}", value);
+        }
         void initializingMemberVariables()
         {
             /* usually done by either contructors or setter functions */
@@ -48,11 +53,11 @@ namespace Application.Types.Classes.ClassMembers
             /* The dot operator links the name of an object with the name of a member */
             MemberVariables obj = new MemberVariables();
             obj.value = 5;
+            value = 4;
         }
         public static void Example()
         {
             MemberVariables obj = new MemberVariables();
-            obj.definingMemberVariables();
             obj.initializingMemberVariables();
             obj.accessingMemberVariables();
         }

@@ -41,8 +41,6 @@ namespace Application.Types.Classes.AccessSpecifiers
          *  private members can be access using public functions of that class
          */
 
-        private double length;
-        private double width;
         public static void Example()
         {
             AccessSpecifierPublic obj = new AccessSpecifierPublic();

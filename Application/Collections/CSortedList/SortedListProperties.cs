@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Application.Collections.CArrayList
+namespace Application.Collections.CSortedList
 {
-    class StackProperties
+    class SortedListProperties
     {
         void propertyCapacity()
         {
@@ -112,7 +112,7 @@ namespace Application.Collections.CArrayList
         }
         public static void Example()
         {
-            StackProperties obj = new StackProperties();
+            SortedListProperties obj = new SortedListProperties();
             {
                 obj.propertyCapacity();
                 obj.propertyCount();

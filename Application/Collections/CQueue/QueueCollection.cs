@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Application.Collections.CQueue
 {
-    class BitArrayCollection
+    class QueueCollection
     {
         /*
          * The Queue class 
@@ -18,8 +18,8 @@ namespace Application.Collections.CQueue
 
         public static void Example()
         {
-            BitArrayProperties.Example();
-            BitArrayMethods.Example();
+            QueueProperties.Example();
+            QueueMethods.Example();
         }
     }
 }

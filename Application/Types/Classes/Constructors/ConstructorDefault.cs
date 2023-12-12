@@ -6,14 +6,18 @@ using System.Threading.Tasks;
 
 namespace Application.Types.Classes.Constructors
 {
-    class Line
+    class DoubleLine
     {
         private double length;   // Length of a line
 
-        public Line()
+        public DoubleLine()
         {
             /* default constructor without any parameter */
-            Console.WriteLine("Object is being created");
+            Console.WriteLine("Object is being created, Length: " + length);
+        }
+        public DoubleLine(double len)
+        {
+            length = len;
         }
     }
     class ConstructorDefault

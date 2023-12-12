@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Application.Collections.CStack
 {
-    class QueueProperties
+    class StackProperties
     {
         void propertyCount()
         {
@@ -27,7 +27,7 @@ namespace Application.Collections.CStack
         }
         public static void Example()
         {
-            QueueProperties obj = new QueueProperties();
+            StackProperties obj = new StackProperties();
             {
                 obj.propertyCount();
             }

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -47,6 +48,15 @@ namespace Application.Collections
                 Console.Write("{0, -6} ", item);
             }
             Console.Write("\n");
+        }
+        public static void PrintHashTable(System.Collections.Hashtable hashtable)
+        {
+            ICollection keys = hashtable.Keys;
+
+            foreach (string key in keys)
+            {
+                Console.WriteLine(key + ": " + hashtable[key]);
+            }
         }
     }
 }
