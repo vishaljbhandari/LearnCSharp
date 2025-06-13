@@ -223,6 +223,7 @@ namespace Application.Types.CArray
             }
             Console.WriteLine();
         }
+
         public static void Example()
         {
             ArrayClass obj = new ArrayClass();
