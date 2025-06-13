@@ -18,15 +18,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Events\" />
-    <Folder Include="Indexers\" />
-    <Folder Include="Delegates\" />
-    <Folder Include="Generics\" />
     <Folder Include="Multithreading\ThreadClassMethods\" />
     <Folder Include="Multithreading\ThreadClassProperties\" />
     <Folder Include="OperatorOverloading\TypeConversions\" />
     <Folder Include="Properties\" />
-    <Folder Include="Reflection\" />
   </ItemGroup>
 
 </Project>

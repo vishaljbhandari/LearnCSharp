@@ -35,13 +35,18 @@ namespace Application.Declaratives.Attributes
                     Positional parameters specify the essential information 
                     name parameters specify the optional information
             */
-            /*
-             *  Predefined Attributes 
+
+            /*  Predefined Attributes 
              *      The .Net Framework provides three pre-defined attributes
              *      1. AttributeUsage
              *      2. Conditional
              *      3. Obsolete
              */
+
+            /*  Custom Attributes 
+             *      The .Net Framework allows creation of custom attributes that can be used to store declarative information and can be retrieved at run-time.
+             */
+
         }
 
 
@@ -49,6 +54,12 @@ namespace Application.Declaratives.Attributes
         {
             AttributeTag obj = new AttributeTag();
             obj.specifyingAttributes();
+
+            PredefinedAttributes.CAttributeUsage.Example();
+            PredefinedAttributes.CConditional.Example();
+            PredefinedAttributes.CObsolete.Example();
+
+            CustomBuiltAttributes.CustomAttribute.Example();
         }
     }
 }

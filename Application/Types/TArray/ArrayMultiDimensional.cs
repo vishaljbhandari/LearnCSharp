@@ -78,8 +78,11 @@ namespace Application.Types.CArray
 
         public static void TwoDimensionalArrays()
         {
+#pragma warning disable 168 // supressing warning CS0168
             int[,,] m;  // 3 d array declaration
             string[,] names; // 2 d array declaration without initialization
+#pragma warning restore 168 // restoring warning CS0168
+
 
             // 2 d array declaration with initialization
             int[,] a = new int[3, 4] {
@@ -140,12 +143,12 @@ namespace Application.Types.CArray
             obj.twoDimensionArray();
             obj.threeDimensionArray();
 
-
-
             // datatype[] arrayName;
 
             // Declaring Arrays
+#pragma warning disable 168 // supressing warning CS0168
             double[] myFirstArray;
+#pragma warning restore 168 // restoring warning CS0168
 
             // Initializing an Array using new opeartor and [] braces
             double[] mySecondArray = new double[10];    // create array of size 10 (10 elements)
@@ -203,11 +206,6 @@ namespace Application.Types.CArray
             }
             TwoDimensionalArrays();
             JaggedArray();
-            PassingArrayToFunction.MyArray.Run();
-            ParamArrays.TestClass.Run();
-            ArrayClass.MyArray.Run();
-            Console.ReadLine();
-
         }
     }
 }
