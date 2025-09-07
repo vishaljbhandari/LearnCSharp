@@ -1,0 +1,28 @@
+
+
+Repository Solutions:
+> LearnCSharp/LearnCSharp.sln
+> LearnCSharp/LearnCSharpAsync.sln
+> LearnCSharp/LearnCSharpCollections.sln
+> LearnCSharp/LearnCSharpDotNet.sln
+> LearnCSharp/LearnCSharpEvents.sln
+> LearnCSharp/LearnCSharpGenerics.sln
+> LearnCSharp/LearnCSharpLinq.sln
+> LearnCSharp/LearnCSharpOops.sln
+> LearnCSharp/LearnCSharpSystems.sln
+
+Repository: https://github.com/vishaljbhandari/LearnCSharp
+Issues: https://github.com/vishaljbhandari/LearnCSharp/issues
+Milestones: https://github.com/vishaljbhandari/LearnCSharp/milestones
+
+
+New Solution Tasks
+	>> Import Following Projects "As Existing"
+	1) Include
+	2) Helper
+	3) Documents
+	>> Configuration Manager > Uncheck All These Three Projects From Build
+
+	Git Branch
+	>> master_learn_csharp => Master Branch
+

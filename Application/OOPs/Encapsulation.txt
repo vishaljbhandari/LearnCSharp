@@ -1,6 +1,0 @@
-﻿Encapsulation is defined 'as the process of enclosing one or more items within a physical or logical package'. 
-
-Encapsulation, in OOPs methodology, sprevents access to implementation details.
-
-Encapsulation is implemented by using access specifiers. 
-An access specifier defines the scope and visibility of a class member. 

@@ -1,5 +1,0 @@
-﻿
-
-Abstraction allows making relevant information visible
-
-encapsulation enables a programmer to implement the desired level of abstraction
